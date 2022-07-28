@@ -1,6 +1,6 @@
 body{
     position:flex;
-    background-color: black;
+    background-color: rgb(18, 9, 9);
 }
 main{
     position:relative;
@@ -27,18 +27,26 @@ a{
 header nav ul{ 
     display: flex;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
     
 }
 header nav ul li {
     display: inline;
 }
 .project{
-    
+    display: flex;
+    justify-content: left;
     color: white;
  
     margin: 50px;
     
+}
+.description{
+    padding-left: 10px;
+}
+.project img{
+    max-width: 100px;
+    max-height: 100px;
 }
 .project a{
     color: white;
