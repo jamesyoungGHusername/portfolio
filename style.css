@@ -15,16 +15,34 @@ header{
     top:0;
     left: 0;
     align-items: baseline;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
-header nav ul{
-    
+nav a{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+header nav ul{ 
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 header nav ul li {
     display: inline;
+}
+.project{
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 50px;
+
+}
+.project a{
+    color: white;
+}
+.project a:visited{
+    color: white;
 }
