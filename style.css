@@ -8,6 +8,7 @@ main{
 }
 header{
     position: fixed;
+    z-index: 9;
     background-color: whitesmoke;
     width: 100%;
     display: flex;
