@@ -1,0 +1,29 @@
+body{
+    position:flex;
+    background-color: black;
+}
+main{
+    position:relative;
+    padding-top: 75px;
+}
+header{
+    position: fixed;
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    top:0;
+    left: 0;
+    align-items: baseline;
+    justify-content: space-around;
+    
+}
+header nav ul{
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+header nav ul li {
+    display: inline;
+}
