@@ -34,11 +34,11 @@ header nav ul li {
     display: inline;
 }
 .project{
-    background-color: black;
+    
     color: white;
-    display: flex;
+ 
     margin: 50px;
-
+    
 }
 .project a{
     color: white;
