@@ -4,19 +4,24 @@ body{
 }
 main{
     position:relative;
-    padding-top: 75px;
+    padding-top: 150px;
 }
+
 header{
     position: fixed;
+    flex-direction: column;
     z-index: 9;
     background-color: whitesmoke;
     width: 100%;
     display: flex;
     top:0;
     left: 0;
-    align-items: baseline;
-    justify-content: space-evenly;
-    
+    align-items: center;
+    justify-content: space-around;
+}
+
+section{
+    color: white;
 }
 nav a{
     color: black;
@@ -27,17 +32,19 @@ a{
 header nav ul{ 
     display: flex;
     width: 100%;
+    padding-left: 0px;
     justify-content: space-between;
-    
+    align-items: center;
 }
 header nav ul li {
+    padding: 10px;
+    text-align: center;
     display: inline;
 }
 .project{
     display: flex;
     justify-content: left;
     color: white;
- 
     margin: 50px;
     
 }
@@ -53,4 +60,16 @@ header nav ul li {
 }
 .project a:visited{
     color: white;
+}
+
+@media screen and (min-width: 720px) {
+    header{
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-evenly;
+    }
+    main{
+        padding-top: 75px;
+    }
+    
 }
