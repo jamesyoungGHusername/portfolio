@@ -12,18 +12,56 @@
             <h1>James_Young</h1>
             <nav>
                 <ul>
-                    <li><a href="./index.html">Home</a></li>
-                    <li><a href="./about.html">About</a></li>
-                    <li><a href="./projects.html">Projects</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
+                    <!-- Modified links to point at main page. 
+                        Assignment requires a single page, 
+                        but later versions of the site will include multiple pages. -->
+                    <!-- <li><a href="./index.html">Home</a></li> -->
+                    <!-- <li><a href="./about.html">About</a></li> -->
+                    <li><a href="#about">About</a></li>
+                    <!-- <li><a href="./projects.html">Projects</a></li> -->
+                    <li><a href="#projects">Projects</a></li>
+                    <!-- <li><a href="./contact.html">Contact</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <main>
-            <section>
+            <section id="about">
                 <h1>
-                placeholder content.
+                About
                 </h1>
+
+            </section>
+            <section id="projects">
+                <h1>
+                Projects
+                </h1>
+                <a href="https://apps.apple.com/us/app/madaba-match/id1598843708">
+                    <section class="project">
+                        <img src="./assets/InfiniMatchAppIcon.png" alt="Madaba Match app image.">
+                        <div class="description">
+                            <h1><strong>Madaba Match</strong></h1>
+                            <p>A match game where the important thing isn't where you end up, it's how you got there.</p>
+                        </div>
+                    </section>
+                </a>
+                <a href="https://apps.apple.com/us/app/csv-flashcards/id1594741018">
+                    <section class="project">
+                        <img src="./assets/FlashcardsApplcon.png" alt="CSV flashcards app icon">
+                        <div class="description">
+                            <h1><strong>CSV Flashcards</strong></h1>
+                            <p>A productivity app that allows users to import decks of flashcards from CSV files.</p>
+                        </div>
+                    </section>
+                </a>
+            </section>
+            <section id="contact">
+                <h1>
+                Contact
+                </h1>
+                <h2>
+                    <a href="mailto: jamesyoungwrites@gmail.com">Click this to email me.</a>
+                </h2>
             </section>
             
         </main>
