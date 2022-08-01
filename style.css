@@ -2,6 +2,7 @@ body{
     position:flex;
     background-color: rgb(18, 9, 9);
 }
+
 main{
     position:relative;
     padding-top: 150px;
@@ -20,7 +21,6 @@ header{
     align-items: center;
     justify-content: space-around;
 }
-
 section{
     color: white;
 }
@@ -43,6 +43,40 @@ header nav ul li {
     display: inline;
 }
 
+/* ABOUT SECTION */
+#about{
+    align-items: center;
+}
+.photo-and-content{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.photo-and-content img{
+    max-width: 200px;
+    max-height: 200px;
+
+}
+.photo-and-content .content{
+    display: flex;
+    flex-direction: column;
+}
+.photo-and-content div img{
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photo-and-content div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* PROJECT LIST */
+#projects ul{
+    list-style-type: none;
+}
+/* Project list item, child of an a link to deployed project. */
 .project{
     display: flex;
     justify-content: left;
@@ -69,62 +103,30 @@ header nav ul li {
 .project a:visited{
     color: white;
 }
-.photo-and-content img{
-    max-width: 200px;
-    max-height: 200px;
-
-}
-.photo-and-content{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
-.photo-and-content .content{
-    display: flex;
-    flex-direction: column;
-}
-.photo-and-content div img{
-    justify-self: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-.photo-and-content div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#about{
-    align-items: center;
-}
-#projects ul{
-    list-style-type: none;
-}
-
-
-
 
 
 
 @media screen and (min-width: 720px) {
+    /* Default formatting is mobile layout, 
+    below code swaps from row to column when the page is large enough */
     header{
         flex-direction: row;
         align-items: baseline;
         justify-content: space-evenly;
     }
+    /* Moves content up as nav bar shrinks. */
     main{
         padding-top: 75px;
     }
+
     .photo-and-content{
         display: flex;
         flex-direction: row;
         align-items: center;
     }
+
     .content{
         padding-left: 10px;
     }
-    .photo-and-content img{
-        max-width: 200px;
-        max-height: 200px;
-    }
-    
+  
 }
