@@ -5,6 +5,7 @@ body{
 main{
     position:relative;
     padding-top: 150px;
+    align-content: center;
 }
 
 header{
@@ -41,19 +42,26 @@ header nav ul li {
     text-align: center;
     display: inline;
 }
+
 .project{
     display: flex;
     justify-content: left;
+    align-items: center;
     color: white;
     margin: 50px;
-    
+}
+.project:hover{
+    background-color: slategray;
+    transform: scale(1.1);
 }
 .description{
     padding-left: 10px;
+    padding-right: 10px;
 }
 .project img{
     max-width: 100px;
     max-height: 100px;
+    padding: 10px;
 }
 .project a{
     color: white;
@@ -61,17 +69,42 @@ header nav ul li {
 .project a:visited{
     color: white;
 }
+.photo-and-content img{
+    max-width: 200px;
+    max-height: 200px;
+
+}
 .photo-and-content{
     display: flex;
     flex-direction: column;
+    align-content: center;
 }
 .photo-and-content .content{
     display: flex;
     flex-direction: column;
 }
-.photo-and-content img{
-    scale: 50%;
+.photo-and-content div img{
+    justify-self: center;
+    margin-left: auto;
+    margin-right: auto;
 }
+.photo-and-content div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about{
+    align-items: center;
+}
+#projects ul{
+    list-style-type: none;
+}
+#projects ul:nth-child(1){
+    background-color: greens;
+}
+
+
+
 
 
 @media screen and (min-width: 720px) {
@@ -86,7 +119,14 @@ header nav ul li {
     .photo-and-content{
         display: flex;
         flex-direction: row;
-        
+        align-items: center;
+    }
+    .content{
+        padding-left: 10px;
+    }
+    .photo-and-content img{
+        max-width: 200px;
+        max-height: 200px;
     }
     
 }
