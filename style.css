@@ -99,9 +99,6 @@ header nav ul li {
 #projects ul{
     list-style-type: none;
 }
-#projects ul:nth-child(1){
-    background-color: greens;
-}
 
 
 
