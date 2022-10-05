@@ -61,6 +61,18 @@ header nav ul li {
 .project a:visited{
     color: white;
 }
+.photo-and-content{
+    display: flex;
+    flex-direction: column;
+}
+.photo-and-content .content{
+    display: flex;
+    flex-direction: column;
+}
+.photo-and-content img{
+    scale: 50%;
+}
+
 
 @media screen and (min-width: 720px) {
     header{
@@ -70,6 +82,11 @@ header nav ul li {
     }
     main{
         padding-top: 75px;
+    }
+    .photo-and-content{
+        display: flex;
+        flex-direction: row;
+        
     }
     
 }
