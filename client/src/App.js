@@ -17,6 +17,10 @@ function App() {
           <main>
             <Routes>
               <Route 
+                path='/portfolio'
+                element={<About/>}
+              />
+              <Route 
                 path='/'
                 element={<About/>}
               />
