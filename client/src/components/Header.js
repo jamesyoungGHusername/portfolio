@@ -13,7 +13,7 @@ export default function Header() {
                 <li><Link to="/projects">Portfolio</Link></li>
                
                 <li><Link to="/contact">Contact</Link></li>
-                <li><Link to="/resumee">Resumee</Link></li>
+                <li><a href="../assets/JamesYoungCV.pdf" download>Resumee</a></li>
             </ul>
         </nav>
     </header>

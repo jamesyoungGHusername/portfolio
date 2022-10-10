@@ -21,6 +21,18 @@ header{
     align-items: center;
     justify-content: space-around;
 }
+footer{
+    position: fixed;
+    flex-direction: column;
+    z-index: 9;
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-around;
+}
 section{
     color: white;
 }
@@ -38,6 +50,18 @@ header nav ul{
     align-items: center;
 }
 header nav ul li {
+    padding: 10px;
+    text-align: center;
+    display: inline;
+}
+footer ul{
+    display: flex;
+    width: 100%;
+    padding-left: 0px;
+    justify-content: space-around;
+    align-items: center;
+}
+footer ul li {
     padding: 10px;
     text-align: center;
     display: inline;

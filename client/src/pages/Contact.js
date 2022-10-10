@@ -16,7 +16,6 @@ function Contact(){
             if(e.target.name != "message"){
                 e.target.className = "red";
             }
-            
         }else{
             e.target.className = "";
         }
