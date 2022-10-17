@@ -14,6 +14,7 @@ const Projects = () => {
                     <Project link='https://l1keafox.github.io/RealTimeCommodities/' name="Real Time Commodities" desc="Worked with a group to implement API calls and google charts."/>
                     <Project link='https://github.com/jmobrien1976/Five-Guys' name="Hypothetical Food-Ordering System" desc='Worked with a group to implement a website that allowed users to "order" food from a hypothetical restaurant. Used a mysql database, bcrypt, handlebars and Stripe.'/>
                     <Project image={flashcardsIcon} link='https://apps.apple.com/us/app/csv-flashcards/id1594741018' name="CSV Flashcards" desc="A productivity app that allows users to import decks of flashcards from CSV files."/>
+                    <Project link='https://sleepy-mountain-95539.herokuapp.com' name="Bubble Dungeonz" desc="A game website that generates supporting infrastructure like chat and accessability/settings options for games hosted on it."/>
                 </ul>
                 
                 
