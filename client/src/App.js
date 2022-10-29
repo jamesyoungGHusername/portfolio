@@ -1,5 +1,5 @@
 //import logo from './logo.svg';
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './style.css';
 import Header from './components/Header';
 import About from './pages/About';
@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
+ 
+
   return (
     <Router>
       <div className="App">
@@ -16,7 +18,7 @@ function App() {
           <Header/>
           <main>
             <Routes>
-              <Route 
+              <Route
                 path='/portfolio'
                 element={<About/>}
               />

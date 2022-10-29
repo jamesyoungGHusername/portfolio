@@ -6,9 +6,6 @@ import infiniMatchAppIcon from '../assets/InfiniMatchAppIcon.png';
 const Projects = () => {
     return (
         <section id="projects">
-                <h1>
-                Projects
-                </h1>
                 <ul>
                     <Project image={infiniMatchAppIcon} link='https://apps.apple.com/us/app/madaba-match/id1598843708' name="Madaba Match" desc="A match game where the important thing isn't where you end up, it's how you got there."/>
                     <Project link='https://l1keafox.github.io/RealTimeCommodities/' name="Real Time Commodities" desc="Worked with a group to implement API calls and google charts."/>

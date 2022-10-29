@@ -1,6 +1,7 @@
 body{
     position:flex;
     background-color: rgb(18, 9, 9);
+    font-family: monospace, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 main{
@@ -74,6 +75,7 @@ footer ul li {
 /* ABOUT SECTION */
 #about{
     align-items: center;
+    justify-content: center;
 }
 .photo-and-content{
     display: flex;
@@ -146,15 +148,8 @@ footer ul li {
     main{
         padding-top: 75px;
     }
+    
 
-    .photo-and-content{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .content{
-        padding-left: 10px;
-    }
+    
   
 }
