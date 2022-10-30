@@ -6,12 +6,12 @@
     background-color: darkslategray;
     margin: 50px;
     width:80%;
-    transform: translate(20%);
+    transform: translate(15%);
 }
 .project:hover{
     background-color: slategray;
     width: 90%;
-    transform: translate(5%);
+    transform: translate(2.5%);
     
 }
 
