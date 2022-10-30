@@ -16,7 +16,7 @@ const About = () => {
                               I like riding bikes and have strong opinions about infrastructure and city design. 
                           </p>
                           <p>
-                              I have been coding for appromiately 7 years as a hobby, for academic reasons, and occasionally as a freelancer. I'm professionally functional (to use the spoken language term) with Java, Swift, Javascript, and C# through Unity, and I also enjoy doing custom electronics and code using raspberry pis and arduinos for interactive art exhibits.
+                              I have been coding for approximately 7 years as a hobby, for academic reasons, and occasionally as a freelancer. I'm professionally functional (to use the spoken language term) with Java, Swift, Javascript, and C# through Unity, and I also enjoy doing custom electronics and code using raspberry pis and arduinos for interactive art exhibits.
                           </p>
                           <p>
                               If you have an idea, hairbrained or not, I want to hear about it. My economics and small business background makes startups my preferred working environment. I want projects and work that I can make my own.
