@@ -59,7 +59,7 @@ export default function Header(props) {
 
     return (
     <header>
-        <h4>Guest@James_Young_Portfolio % {displayedHeader} &#9608;</h4>
+        <h4>Guest@James_Young_Portfolio % {displayedHeader}&#9608;</h4>
         <nav>
             <ul>
         
