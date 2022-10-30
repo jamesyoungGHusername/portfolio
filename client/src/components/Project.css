@@ -13,6 +13,7 @@
     width: 90%;
     transform: translate(2.5%);
     margin: 50px;
+    cursor: pointer;
 }
 .blog{
     display: flex;
@@ -24,7 +25,6 @@
     width: 90%;
     transform: translate(2.5%);
     
-    
 }
 
 .description{
@@ -35,6 +35,9 @@ img{
     max-width: 100px;
     max-height: 100px;
     padding: 10px;
+}
+.blog p{
+    cursor: default;
 }
 
 
