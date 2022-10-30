@@ -22,9 +22,10 @@ function App() {
             <Header/>
             <main>
               <Routes>
+                {/* this route is required for github pages */}
                 <Route
-                  path='/projects'
-                  element={<Projects/>}
+                  path='/portfolio'
+                  element={<About/>}
                   
                 />
                 <Route 
