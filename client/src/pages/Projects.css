@@ -1,0 +1,9 @@
+#projects ul{
+    list-style-type: none;
+}
+
+@media screen and (min-width: 720px) {
+    #projects{
+        justify-content: center;
+    }
+}

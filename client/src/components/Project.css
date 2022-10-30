@@ -1,0 +1,32 @@
+.project{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: white;
+    background-color: darkslategray;
+    margin: 50px;
+    width:80%;
+    transform: translate(20%);
+}
+.project:hover{
+    background-color: slategray;
+    width: 90%;
+    transform: translate(5%);
+    
+}
+
+.description{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.project img{
+    max-width: 100px;
+    max-height: 100px;
+    padding: 10px;
+}
+.project a{
+    color: white;
+}
+.project a:visited{
+    color: white;
+}
