@@ -6,43 +6,52 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Footer from './components/Footer';
+import NavContextProvider from './utils/NavContext';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
+
+ 
  
 
   return (
     <Router>
-      <div className="App">
-        
-          <Header/>
-          <main>
-            <Routes>
-              <Route
-                path='/portfolio'
-                element={<About/>}
-              />
-              <Route 
-                path='/'
-                element={<About/>}
-              />
-              <Route 
-                path='/about_me'
-                element={<About/>}
-              />
-              <Route 
-                path='/contact'
-                element={<Contact />}
-              />
-              <Route 
-                path='/projects'
-                element={<Projects />}
-              />
-            </Routes>
+      <NavContextProvider>
+        <div className="App">
+          
+            <Header/>
+            <main>
+              <Routes>
+                <Route
+                  path='/projects'
+                  element={<Projects/>}
+                  
+                />
+                <Route 
+                  path='/'
+                  element={<About/>}
+                 
+                />
+                <Route 
+                  path='/about_me'
+                  element={<About/>}
+                  
+                />
+                <Route 
+                  path='/contact'
+                  element={<Contact />}
+                />
+                <Route 
+                  path='/projects'
+                  element={<Projects />}
+                  
+                />
+              </Routes>
 
-          </main>
-          <Footer/>
-      </div>
+            </main>
+            <Footer/>
+        </div>
+      </NavContextProvider>
     </Router>
   );
 }

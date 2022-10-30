@@ -1,15 +1,18 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { BrowserRouter, Route, Link, useLocation } from "react-router-dom";
+import NavContextProvider, {useNavContext} from "../utils/NavContext";
+
 let navigating = false;
 let typing = false;
 let typeCount = 1;
 export default function Header(props) {
-    
-    const [header,setHeader] = useState("about_me");
-    const [displayedHeader,setDisplayedHeader] = useState("about_me");
+    const {currentLocation,setCurrentLocation} = useNavContext();
+    const [header,setHeader] = useState(useNavContext().currentLocation);
+    const [displayedHeader,setDisplayedHeader] = useState(useNavContext().currentLocation);
     const location = useLocation();
+
     async function updateHeader(text){
-        
+        setCurrentLocation(text);
         setHeader(text);
     }
     function timeout(delay){
@@ -30,7 +33,6 @@ export default function Header(props) {
             typeCount=1;
             typing=false;
         }
-       
     }
 
     useEffect(()=>{
@@ -64,7 +66,6 @@ export default function Header(props) {
                 <li onClick={()=>updateHeader("about_me")}><Link to="/about_me">about_me</Link></li>
                 <li onClick={()=>updateHeader("projects")}><Link to="/projects">projects</Link></li>
                 <li onClick={()=>updateHeader("contact")}><Link to="/contact">contact</Link></li>
-                <li onClick={()=>updateHeader("resume")}><a href="../assets/JamesYoungCV.pdf" download>resume</a></li>
             </ul>
         </nav>
     </header>

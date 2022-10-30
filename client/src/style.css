@@ -23,9 +23,10 @@ header{
     justify-content: space-around;
 }
 footer{
-
+    position: fixed;
     flex-direction: column;
     z-index: 9;
+    opacity: 0.9;
     background-color: whitesmoke;
     width: 100%;
     display: flex;
