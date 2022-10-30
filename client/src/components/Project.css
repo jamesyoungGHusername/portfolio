@@ -2,14 +2,15 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    color: white;
-    background-color: darkslategray;
+    color:black;
+    background-color: slategray;
     margin: 50px;
     width:80%;
     transform: translate(15%);
 }
 .project:hover{
-    background-color: slategray;
+    
+    background-color: darkgray;
     width: 90%;
     transform: translate(2.5%);
     margin: 50px;
@@ -20,7 +21,8 @@
     justify-content: left;
     align-items: center;
     color: black;
-    background-color: slategray;
+    
+    background-color: darkgray;
     margin: 50px;
     width: 90%;
     transform: translate(2.5%);
