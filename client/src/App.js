@@ -27,6 +27,10 @@ function App() {
                 element={<About/>}
               />
               <Route 
+                path='/about_me'
+                element={<About/>}
+              />
+              <Route 
                 path='/contact'
                 element={<Contact />}
               />

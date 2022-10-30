@@ -1,14 +1,15 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter, Route, Link } from "react-router-dom";
+import { BrowserRouter, Route, Link, useLocation } from "react-router-dom";
 let navigating = false;
 let typing = false;
 let typeCount = 1;
 export default function Header(props) {
-
+    
     const [header,setHeader] = useState("about_me");
     const [displayedHeader,setDisplayedHeader] = useState("about_me");
-    
+    const location = useLocation();
     async function updateHeader(text){
+        
         setHeader(text);
     }
     function timeout(delay){
@@ -60,7 +61,7 @@ export default function Header(props) {
         <nav>
             <ul>
         
-                <li onClick={()=>updateHeader("about_me")}><Link to="/">about_me</Link></li>
+                <li onClick={()=>updateHeader("about_me")}><Link to="/about_me">about_me</Link></li>
                 <li onClick={()=>updateHeader("projects")}><Link to="/projects">projects</Link></li>
                 <li onClick={()=>updateHeader("contact")}><Link to="/contact">contact</Link></li>
                 <li onClick={()=>updateHeader("resume")}><a href="../assets/JamesYoungCV.pdf" download>resume</a></li>

@@ -12,6 +12,18 @@
     background-color: slategray;
     width: 90%;
     transform: translate(2.5%);
+    margin: 50px;
+}
+.blog{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    color: black;
+    background-color: slategray;
+    margin: 50px;
+    width: 90%;
+    transform: translate(2.5%);
+    
     
 }
 
@@ -19,7 +31,7 @@
     padding-left: 10px;
     padding-right: 10px;
 }
-.project img{
+img{
     max-width: 100px;
     max-height: 100px;
     padding: 10px;
@@ -28,5 +40,11 @@
     color: white;
 }
 .project a:visited{
+    color: white;
+}
+.blog a{
+    color: white;
+}
+.blog a:visited{
     color: white;
 }
