@@ -9,6 +9,7 @@ import Footer from './components/Footer';
 import NavContextProvider from './utils/NavContext';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
+
 function App() {
 
  
