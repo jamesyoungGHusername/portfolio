@@ -16,7 +16,7 @@ const About = () => {
                           <p>
                               Raised in Colorado, I attended the University of Groningen in the North of the Netherlands 
                               where I obtained a degree in Politics, Philosophy and Economics.
-                              I like riding bikes and have strong opinions about infrastructure and city design. 
+                              I like riding bikes, cooking, and travel. 
                           </p>
                           <p>
                               I have been coding for approximately 7 years as a hobby, for academic reasons, and occasionally as a freelancer. I'm professionally functional (to use the spoken language term) with Java, Swift, Javascript, and C# through Unity, and I also enjoy doing custom electronics and code using raspberry pis and arduinos for interactive art exhibits.
