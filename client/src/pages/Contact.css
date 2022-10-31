@@ -1,0 +1,12 @@
+
+#contact{
+    justify-content: center;
+}
+.contactCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:50%;
+    transform: translate(50%);
+    box-shadow: 10px,5px,5px,black;
+}

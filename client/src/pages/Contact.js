@@ -41,21 +41,23 @@ function Contact(){
     };
     return (
         <section id="contact">
-            <h1>
-            Contact
-            </h1>
-            <h2>
-                <a href="mailto: jamesyoungwrites@gmail.com">Click this to email me.</a>
-            </h2>
-            <form id="form" action="" onSubmit={handleSubmit}>
-                <input type="text" name='name' placeholder='Name' value={contact.name} onChange={handleChange} onMouseLeave={displayInfoRequired} autoComplete="off" />
-                <br></br>
-                <input type="text" name='email' placeholder='Email' value={contact.email} onChange={handleChange} onMouseLeave={displayInfoRequired} autoComplete="off" />
-                <br></br>
-                <textarea type="textArea" name='message' placeholder="Message" value={contact.message} onChange={handleChange} onMouseLeave={displayInfoRequired} autoComplete="off" />
-                <br></br>
-                <button>Send</button>
-            </form>
+            <div className='contactCard'>
+                <h1>
+                Contact
+                </h1>
+                <h2>
+                    <a href="mailto: jamesyoungwrites@gmail.com">Click this to email me.</a>
+                </h2>
+                <form id="form" action="" onSubmit={handleSubmit}>
+                    <input type="text" name='name' placeholder='Name' value={contact.name} onChange={handleChange} onMouseLeave={displayInfoRequired} autoComplete="off" />
+                    <br></br>
+                    <input type="text" name='email' placeholder='Email' value={contact.email} onChange={handleChange} onMouseLeave={displayInfoRequired} autoComplete="off" />
+                    <br></br>
+                    <textarea type="textArea" name='message' placeholder="Message" value={contact.message} onChange={handleChange} onMouseLeave={displayInfoRequired} autoComplete="off" />
+                    <br></br>
+                    <button>Send</button>
+                </form>
+            </div>
         </section>
     );
 }
