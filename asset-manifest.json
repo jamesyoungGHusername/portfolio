@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3c8e90f7.css",
-    "main.js": "/portfolio/static/js/main.85b9a9f0.js",
+    "main.css": "/portfolio/static/css/main.b365b635.css",
+    "main.js": "/portfolio/static/js/main.3431fadf.js",
     "static/js/787.c4e7f8f9.chunk.js": "/portfolio/static/js/787.c4e7f8f9.chunk.js",
     "static/media/IMG_1965.JPG": "/portfolio/static/media/IMG_1965.6b339e95dcd84e1b4a36.JPG",
+    "static/media/Commodities.png": "/portfolio/static/media/Commodities.712057b6b44135e493b5.png",
     "static/media/James-Young-Resume.pdf": "/portfolio/static/media/James-Young-Resume.c71a00427b6edc3ed8ae.pdf",
     "static/media/bubbleArcade.png": "/portfolio/static/media/bubbleArcade.d5ae7b6e8ab4d3f89f84.png",
     "static/media/headshot for portfolio site.jpeg": "/portfolio/static/media/headshot for portfolio site.859465be4d1fc0806de9.jpeg",
+    "static/media/hamburger.png": "/portfolio/static/media/hamburger.6d05441efa58021113e5.png",
     "static/media/InfiniMatchAppIcon.png": "/portfolio/static/media/InfiniMatchAppIcon.d6a2ca2d4acdcdbdd4d1.png",
     "index.html": "/portfolio/index.html",
-    "main.3c8e90f7.css.map": "/portfolio/static/css/main.3c8e90f7.css.map",
-    "main.85b9a9f0.js.map": "/portfolio/static/js/main.85b9a9f0.js.map",
+    "main.b365b635.css.map": "/portfolio/static/css/main.b365b635.css.map",
+    "main.3431fadf.js.map": "/portfolio/static/js/main.3431fadf.js.map",
     "787.c4e7f8f9.chunk.js.map": "/portfolio/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c8e90f7.css",
-    "static/js/main.85b9a9f0.js"
+    "static/css/main.b365b635.css",
+    "static/js/main.3431fadf.js"
   ]
 }
