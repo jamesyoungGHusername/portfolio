@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./Contact.css";
+import {SiGithub, SiGmail} from "react-icons/si";
 
 function Contact(){
     const [contact,setContact] = useState({
@@ -45,10 +46,18 @@ function Contact(){
                 <h1>
                 Contact
                 </h1>
-                <h2>
-                    <a href="mailto: jamesyoungwrites@gmail.com">Click this to email me.</a>
-                </h2>
-                <form id="form" action="" onSubmit={handleSubmit}>
+                <a href="mailto: jamesyoungwrites@gmail.com"><div className='contactOption'>
+                    <SiGmail size={70} color={"white"}/>
+                    <p>Email me</p>
+                </div></a>
+                <br></br>
+                <a href="https://github.com/jamesyoungGHusername"><div className='contactOption'>
+                    <SiGithub size={70} color={"white"}/>
+                    <p>Github</p>
+                </div></a>
+                
+                
+                {/* <form id="form" action="" onSubmit={handleSubmit}>
                     <input type="text" name='name' placeholder='Name' value={contact.name} onChange={handleChange} onMouseLeave={displayInfoRequired} autoComplete="off" />
                     <br></br>
                     <input type="text" name='email' placeholder='Email' value={contact.email} onChange={handleChange} onMouseLeave={displayInfoRequired} autoComplete="off" />
@@ -56,7 +65,7 @@ function Contact(){
                     <textarea type="textArea" name='message' placeholder="Message" value={contact.message} onChange={handleChange} onMouseLeave={displayInfoRequired} autoComplete="off" />
                     <br></br>
                     <button>Send</button>
-                </form>
+                </form> */}
             </div>
         </section>
     );

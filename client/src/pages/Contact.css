@@ -9,4 +9,19 @@
     width:50%;
     transform: translate(50%);
     box-shadow: 10px,5px,5px,black;
+
+}
+h1{
+    justify-self: center;
+}
+
+.contactOption{
+    display: flex;
+    align-items: center;
+}
+
+.contactOption p{
+    margin: 30px;
+    color:white;
+    border-radius: 3px;
 }
