@@ -2,7 +2,7 @@ import React from 'react';
 import Project from '../components/Project';
 import flashcardsIcon from '../assets/FlashcardsApplcon.png';
 import infiniMatchAppIcon from '../assets/InfiniMatchAppIcon.png';
-import phoneIcon from '../assets/IMG_1965.JPG';
+import phoneIcon from '../assets/PhoneBooth/IMG_1965.JPG';
 import bubbleIcon from '../assets/bubbleArcade.png'
 import commoditiesIcon from '../assets/Commodities.png';
 import hamburgerIcon from '../assets/hamburger.png';
