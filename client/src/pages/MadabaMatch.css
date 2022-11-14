@@ -3,11 +3,11 @@ main{
     position:relative;
     padding-top: 150px;
     align-content: center;
+    color: white;
 }
 
 @media screen and (min-width: 720px) {
-
     main{
-        padding-top: 75px;
+        padding-top: 50px;
     }
 }

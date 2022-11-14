@@ -4,7 +4,7 @@ export const PrivacyPolicy = () => {
 
 
     return (
-        <div>
-            Privacy policy page
-        </div>
+        <main>
+            I collect no data from my apps.
+        </main>
     )}

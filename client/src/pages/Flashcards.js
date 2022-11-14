@@ -4,7 +4,7 @@ export const Flashcards = () => {
 
 
     return (
-        <div>
+        <main>
             Flashcards page
-        </div>
+        </main>
     )}
