@@ -1,11 +1,12 @@
 import React, {useEffect, useState} from "react";
+import { BrowserRouter, Route, Link, useLocation } from "react-router-dom";
 import "./Project.css";
 
 let navigating = false;
 let typing = false;
 
 
-export default function Project({image,link,name,desc,text}) {
+export default function Project({image,link,name,desc,text,documentation}) {
     const [displayPost,setDisplayPost] = useState(false);
     const [postText,setPostText] = useState(text)
     const [shownPostText,setShownText] = useState("");
@@ -19,7 +20,7 @@ export default function Project({image,link,name,desc,text}) {
 
     async function typePost(){
         if(postText){
-            await timeout(10);
+            await timeout(2);
             if(postText!=shownPostText){
                 setShownText(postText.slice(0,typeCount))
                 setTypeCount(typeCount+1);
@@ -54,6 +55,7 @@ export default function Project({image,link,name,desc,text}) {
                 {image && <img id="first" src={image} alt="Madaba Match app image."/>}
                 <div className="description">
                     <h1><a href={link}><strong>{name}</strong></a></h1>
+                        {documentation ? <Link to={documentation}>Documentation</Link>:<div/>}
                         <p>{desc}</p>
                         {open ? <p>{shownPostText}</p> : <div/>}
                 </div>
