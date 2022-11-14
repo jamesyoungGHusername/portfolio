@@ -10,13 +10,14 @@ export const MadabaMatch = () => {
     return (
         <main>
             <h2>
-                Madaba Match
+                Madaba Match Beta
             </h2>
             <div className='vidContainer'>
                 <video width="750" height="500" controls >
                     <source src={mmVideo} type="video/mp4"/>
                 </video>
-
+                <p className='rightText'>The game revolves around dragging tiles to match groups of four. Fairly straightforward, but beware, as you drag tiles around the board they switch places with the tiles you aren't touching. Pictured on the left is 50-yard dash. Moving a tile one space counts as a move, you have 50 moves to score as many points as possible.</p>
             </div>
+            <p>This project is being rebuilt in Unity for a cross-platform release. Initally merely a project to get familiar with sprite-kit, it turned into something that I feel has the potential for complex gameplay.</p>
         </main>
     )}

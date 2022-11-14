@@ -4,10 +4,34 @@ main{
     padding-top: 150px;
     align-content: center;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vidContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rightText{
+    padding-left: 0px;
+    padding-top: 10px;
 }
 
 @media screen and (min-width: 720px) {
     main{
         padding-top: 50px;
+    }
+    .vidContainer{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .rightText{
+        padding-left: 20px;
     }
 }
