@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Flashcards.css";
-const Flashcards = () => {
+export const Flashcards = () => {
 
 
     return (

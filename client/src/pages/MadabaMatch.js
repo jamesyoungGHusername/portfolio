@@ -1,10 +1,11 @@
 import React from 'react';
 import "./MadabaMatch.css";
-const MadabaMatch = () => {
+
+export const MadabaMatch = () => {
 
 
     return (
-        <div>
-            Madaba Match page
-        </div>
+        <main>
+            <h1>MADABA MATCH PAGE</h1>
+        </main>
     )}
