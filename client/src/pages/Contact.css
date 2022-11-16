@@ -21,6 +21,7 @@ h1{
 }
 
 .contactOption p{
+    display: flex;
     margin: 30px;
     color:white;
     border-radius: 3px;

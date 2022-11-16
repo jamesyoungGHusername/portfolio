@@ -47,13 +47,15 @@ function Contact(){
                 Contact
                 </h1>
                 <a href="mailto: jamesyoungwrites@gmail.com"><div className='contactOption'>
-                    <SiGmail size={70} color={"white"}/>
+                    <div><SiGmail size={70} color={"white"}/></div>  
                     <p>Email me</p>
+
                 </div></a>
                 <br></br>
                 <a href="https://github.com/jamesyoungGHusername"><div className='contactOption'>
-                    <SiGithub size={70} color={"white"}/>
+                    <div><SiGithub size={70} color={"white"}/></div>
                     <p>Github</p>
+
                 </div></a>
                 
                 
