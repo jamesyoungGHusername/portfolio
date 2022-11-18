@@ -7,6 +7,9 @@ export const useNavContext = () => useContext(NavContext);
 
 export default function NavContextProvider(props){
     const [currentLocation,setCurrentLocation] = useState(useLocation().pathname.slice(1));
+    if(currentLocation == ""){
+        setCurrentLocation(" ");
+    }
     
     
     return (
