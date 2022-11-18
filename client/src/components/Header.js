@@ -59,10 +59,10 @@ export default function Header(props) {
 
     return (
     <header>
-        <h4>Guest@James_Young_Portfolio % {displayedHeader}&#9608;</h4>
+        <h4>Guest@JamesMakesApps.com % {displayedHeader}&#9608;</h4>
         <nav>
             <ul>
-        
+                <li onClick={()=>updateHeader(" ")}><Link to="/">home</Link></li>
                 <li onClick={()=>updateHeader("about_me")}><Link to="/about_me">about_me</Link></li>
                 <li onClick={()=>updateHeader("projects")}><Link to="/projects">projects</Link></li>
                 <li onClick={()=>updateHeader("contact")}><Link to="/contact">contact</Link></li>

@@ -28,8 +28,8 @@ const About = () => {
                   </div>
                   
         </section>
-            <div className='languageIcons'><SiSwift className='icon' size={70} color={"white"}/><SiJava className='icon' size={70} color={"white"}/><SiJavascript className='icon' size={70} color={"white"}/><SiCsharp className='icon' size={70} color={"white"}/><SiMicropython className='icon' size={70} color={"white"}/></div>
-            <div className='toolIcons'><SiUnity size={70} color={"white"}/><SiMongodb size={70} color={"white"}/><SiMysql size={70} color={"white"}/><SiReact size={70} color={"white"}/><SiApachemaven size={70} color={"white"}/><SiHandlebarsdotjs size={70} color={"white"}/><SiNpm size={70} color={"white"}/><SiNodedotjs size={70} color={"white"}/><SiHtml5 size={70} color={"white"}/><SiCss3 size={70} color={"white"}/><SiArduino size={70} color={"white"}/><SiRaspberrypi size={70} color={"white"}/></div>
+            <div className='languageIcons'><SiSwift className='icon' size={70} color={"white"}title={"Swift"}/><SiJava className='icon' size={70} color={"white"}title={"Java"}/><SiJavascript className='icon' size={70} color={"white"}title={"Javascript"}/><SiCsharp className='icon' size={70} color={"white"}title={"C# with Unity"}/><SiMicropython className='icon' size={70} color={"white"} title={"Mincropython (for microcontrollers)"}/></div>
+            <div className='toolIcons'><SiUnity size={70} color={"white"} title={"Unity"}/><SiMongodb size={70} color={"white"} title={"MongoDB"}/><SiMysql size={70} color={"white"} title={"SQL"}/><SiReact size={70} color={"white"} title={"React"}/><SiApachemaven size={70} color={"white"} title={"Apache and also Maven"}/><SiHandlebarsdotjs size={70} color={"white"} title={"handlebars.js"}/><SiNpm size={70} color={"white"} title={"npm"}/><SiNodedotjs size={70} color={"white"} title={"Node.js"}/><SiHtml5 size={70} color={"white"} title={"HTML5"}/><SiCss3 size={70} color={"white"}title={"CSS3"}/><SiArduino size={70} color={"white"} title={"Arduino"}/><SiRaspberrypi size={70} color={"white"}title={"RaspberryPi"}/></div>
         </div>
     );
 }

@@ -7,7 +7,7 @@ export const useNavContext = () => useContext(NavContext);
 
 export default function NavContextProvider(props){
     const [currentLocation,setCurrentLocation] = useState(useLocation().pathname.slice(1));
-
+    
     
     return (
         <NavContext.Provider value={{currentLocation,setCurrentLocation}}>
