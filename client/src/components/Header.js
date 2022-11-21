@@ -62,10 +62,10 @@ export default function Header(props) {
         <h4 className='displayedHeader'>Guest@JamesMakesApps.com % {displayedHeader}&#9608;</h4>
         <nav>
             <ul>
-                <Link className='navLink' to="/"><li style={(header==" ")?{backgroundColor:"black",color:"white"}:null} onClick={()=>updateHeader(" ")}>home</li></Link>
-                <Link className='navLink' to="/about_me"><li style={(header=="about_me")?{backgroundColor:"black",color:"white"}:null} onClick={()=>updateHeader("about_me")}>about_me</li></Link>
-                <Link className='navLink' to="/projects"><li style={(header=="projects")?{backgroundColor:"black",color:"white"}:null} onClick={()=>updateHeader("projects")}>projects</li></Link>
-                <Link className='navLink' to="/contact"><li style={(header=="contact")?{backgroundColor:"black",color:"white"}:null} onClick={()=>updateHeader("contact")}>contact</li></Link>
+                <Link className='navLink' to="/"><li style={(header=="home")?{backgroundColor:"rgb(18, 9, 9)",color:"white"}:null} onClick={()=>updateHeader(" ")}>home</li></Link>
+                <Link className='navLink' to="/about_me"><li style={(header=="about_me")?{backgroundColor:"rgb(18, 9, 9)",color:"white"}:null} onClick={()=>updateHeader("about_me")}>about_me</li></Link>
+                <Link className='navLink' to="/projects"><li style={(header=="projects")?{backgroundColor:"rgb(18, 9, 9)",color:"white"}:null} onClick={()=>updateHeader("projects")}>projects</li></Link>
+                <Link className='navLink' to="/contact"><li style={(header=="contact")?{backgroundColor:"rgb(18, 9, 9)",color:"white"}:null} onClick={()=>updateHeader("contact")}>contact</li></Link>
             </ul>
         </nav>
     </header>

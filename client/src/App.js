@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import './style.css';
 import Header from './components/Header';
+import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
@@ -34,8 +35,7 @@ function App() {
                 />
                 <Route 
                   path='/'
-                  element={<About/>}
-                 
+                  element={<Home/>}
                 />
                 <Route 
                   path='/about_me'

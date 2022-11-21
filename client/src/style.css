@@ -35,7 +35,7 @@ header{
     transition: 0.3s;
 }
 .navLink:hover{
-    background-color: black;
+    background-color: rgb(18, 9, 9);
     color:white;
 }
 footer{
@@ -50,9 +50,6 @@ footer{
     left: 0;
     align-items: center;
     justify-content: space-around;
-}
-section{
-    color: white;
 }
 nav a{
     color: black;
