@@ -7,11 +7,19 @@ import {SiApachemaven, SiArduino, SiCplusplus, SiCsharp, SiCss3, SiHandlebarsdot
 const About = () => {
 
     return(
-        <div>
         <section id="about">
+            <div className='aboutContainer'>
                   <div className="photo-and-content">
                     
-                      <div className='photo'><img className='photo' src={headshot} alt="a headshot of James"/></div>
+                    <div className='photoContainer'>
+                        <div className='languageIcons'>
+                            <SiSwift className='icon' size={70} color={"white"}title={"Swift"}/><SiJava className='icon' size={70} color={"white"}title={"Java"}/><SiJavascript className='icon' size={70} color={"white"}title={"Javascript"}/><SiCsharp className='icon' size={70} color={"white"}title={"C# with Unity"}/><SiMicropython className='icon' size={70} color={"white"} title={"Mincropython (for microcontrollers)"}/>
+                        </div>
+                        <img className='photo' src={headshot} alt="a headshot of James"/>
+                        <div className='toolIcons'>
+                            <SiUnity size={70} color={"white"} title={"Unity"}/><SiMongodb size={70} color={"white"} title={"MongoDB"}/><SiMysql size={70} color={"white"} title={"SQL"}/><SiReact size={70} color={"white"} title={"React"}/><SiApachemaven size={70} color={"white"} title={"Apache and also Maven"}/><SiHandlebarsdotjs size={70} color={"white"} title={"handlebars.js"}/><SiNpm size={70} color={"white"} title={"npm"}/><SiNodedotjs size={70} color={"white"} title={"Node.js"}/><SiHtml5 size={70} color={"white"} title={"HTML5"}/><SiCss3 size={70} color={"white"}title={"CSS3"}/><SiArduino size={70} color={"white"} title={"Arduino"}/><SiRaspberrypi size={70} color={"white"}title={"RaspberryPi"}/>
+                        </div>
+                    </div>
                       <div className="content">
                           <p>
                               I like riding bikes, cooking, writing, and travel. I also really like coding - it was my hobby for years before it even occurred to me to do it professionally. Now it's even more fun than it was when it was just a hobby! 
@@ -26,11 +34,12 @@ const About = () => {
                       </div>
     
                   </div>
-                  
+                </div>
+        
+            
+            
+        
         </section>
-            <div className='languageIcons'><SiSwift className='icon' size={70} color={"white"}title={"Swift"}/><SiJava className='icon' size={70} color={"white"}title={"Java"}/><SiJavascript className='icon' size={70} color={"white"}title={"Javascript"}/><SiCsharp className='icon' size={70} color={"white"}title={"C# with Unity"}/><SiMicropython className='icon' size={70} color={"white"} title={"Mincropython (for microcontrollers)"}/></div>
-            <div className='toolIcons'><SiUnity size={70} color={"white"} title={"Unity"}/><SiMongodb size={70} color={"white"} title={"MongoDB"}/><SiMysql size={70} color={"white"} title={"SQL"}/><SiReact size={70} color={"white"} title={"React"}/><SiApachemaven size={70} color={"white"} title={"Apache and also Maven"}/><SiHandlebarsdotjs size={70} color={"white"} title={"handlebars.js"}/><SiNpm size={70} color={"white"} title={"npm"}/><SiNodedotjs size={70} color={"white"} title={"Node.js"}/><SiHtml5 size={70} color={"white"} title={"HTML5"}/><SiCss3 size={70} color={"white"}title={"CSS3"}/><SiArduino size={70} color={"white"} title={"Arduino"}/><SiRaspberrypi size={70} color={"white"}title={"RaspberryPi"}/></div>
-        </div>
     );
 }
 export default About;

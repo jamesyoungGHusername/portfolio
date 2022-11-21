@@ -52,7 +52,7 @@ export default function Project({image,link,name,desc,text,documentation}) {
         // <li><a href={link}>   
         <li>     
             <section onClick={()=>setOpen(!open)} className={open ? "blog":"project"}>
-                {image && <img id="first" src={image} alt="Madaba Match app image."/>}
+                {image && <img className="image" id="first" src={image} alt="Madaba Match app image."/>}
                 <div className="description">
                     <h1><a href={link}><strong>{name}</strong></a></h1>
                         {documentation ? <Link to={documentation}>Documentation</Link>:<div/>}

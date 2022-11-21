@@ -1,7 +1,6 @@
 
 main{
     position:relative;
-    padding-top: 150px;
     align-content: center;
     color: white;
     display: flex;
@@ -21,9 +20,7 @@ main{
 }
 
 @media screen and (min-width: 720px) {
-    main{
-        padding-top: 50px;
-    }
+
     .vidContainer{
         width: 70%;
         display: flex;
