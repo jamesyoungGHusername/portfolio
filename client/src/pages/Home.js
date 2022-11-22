@@ -39,7 +39,7 @@ export default function Home() {
                 <img src={githubData.avatar_url} height="100" width="100" />
                 <div className='nameContainer'>
                     <p className="name">{githubData.name}</p>
-                    <p className='desc'>Public event history</p>
+                    <p className='desc'>Public event history (<a href="https://github.com/jamesyoungGHusername">/jamesyoungGHusername</a>)</p>
                 </div>
                 
             </div>

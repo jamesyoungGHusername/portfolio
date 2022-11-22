@@ -18,10 +18,14 @@
 .photo{
     display: flex;
     max-height: 250px;
+    padding: 5px;
     object-fit: contain;
 }
 .toolIcons{
     text-align: center;
+}
+.icon{
+    padding: 5px;
 }
 .languageIcons{
     text-align: center;
