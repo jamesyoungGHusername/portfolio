@@ -35,9 +35,16 @@ export default function Home() {
 
     return(
         <section className="home">
-            <img src={githubData.avatar_url} height="100" width="100" />
-            <p>{githubData.name}</p>
-            <p>Public event history</p>
+            <div className='profileContainer'>
+                <img src={githubData.avatar_url} height="100" width="100" />
+                <div className='nameContainer'>
+                    <p className="name">{githubData.name}</p>
+                    <p className='desc'>Public event history</p>
+                </div>
+                
+            </div>
+            
+            
             {eventData.map((item,index)=>{
                 return <Push key={index} item={item}></Push>
             })}

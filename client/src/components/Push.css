@@ -1,3 +1,61 @@
 .eventCard{
     display: flex;
+    flex-direction: column;
+    color:white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    margin-top:20px;
+    min-width: 290px;
+    padding: 20px;
+    transition: 0.15s;
+
+}
+.eventCard:hover{
+    display: flex;
+    flex-direction: column;
+    color:black;
+    background-color:white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+    margin-top:20px;
+    min-width: 290px;
+    padding: 20px;
+}
+.eventTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.actionType{
+    display: flex;
+    font-size: 50px;
+    margin: 0px;
+}
+.repoLink{
+    display: inline;
+    font-size: 25px;
+    overflow-wrap: anywhere;
+}
+#px{
+    font-size: 25px;
+    margin: 0px;
+
+}
+.commitContainer{
+    display: flex;
+    flex-direction: column;
+    transition: 0.15s;
+}
+.showCommitButton:hover{
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    background-color: white;
+    color: rgb(18, 9, 9);
+	border: none;
+	padding: 0;
+	font: inherit;
+	outline: inherit;
 }

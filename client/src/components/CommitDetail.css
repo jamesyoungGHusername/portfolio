@@ -1,3 +1,25 @@
 .commitCard{
     display: flex;
+    flex-direction: column;
+    transition: 0.3s;
+}
+.messageCard{
+    display: flex;
+    margin: 0px;
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: 0.15s;
+    color:grey;
+}
+.messageCard:hover{
+    display: flex;
+    margin: 0px;
+    margin-top: 10px;
+    background-color: lightgray;
+    
+}
+.commitLink{
+    display: inline;
+
 }
