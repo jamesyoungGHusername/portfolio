@@ -6,14 +6,17 @@ import phoneIcon from '../assets/PhoneBooth/IMG_1965.JPG';
 import bubbleIcon from '../assets/bubbleArcade.png'
 import commoditiesIcon from '../assets/Commodities.png';
 import hamburgerIcon from '../assets/hamburger.png';
+import travelCultureLogo from "../assets/TravelCultureLogo.png"
 import "./Projects.css";
 import { MadabaMatch } from './MadabaMatch';
+
 // CHANGE TO MORPH AND DISPLAY BLOG INFO INSTEAD OF LINKING SOMEWHERE ELSE.
 const Projects = () => {
     return (
         <section id="projects">
                 <ul className='projectList'>
                     {/* Put text in italics or something */}
+                    <Project image={travelCultureLogo} link='https://www.travelculturellc.com' name="Travel Culture LLC" desc="Luxury Travel Advising" text="There's a difference between seeing the world and experiencing it. This website was made to my client's specifications in order to effectively reach her target audience."/>
                     <Project image={infiniMatchAppIcon} link='https://apps.apple.com/us/app/madaba-match/id1598843708' name="Madaba Match" desc="A match game where the important thing isn't where you end up, it's how you got there." text="This was written in Swift for iOS using sprite kit. It makes use of sound and tactile feedback to provide a realistic and satifying user experience when shifting tiles. Includes a color-blind mode as an accessibility option." documentation="/madaba-match"/>
                     <Project image={flashcardsIcon} link='https://github.com/jamesyoungGHusername/SpreadSheetFlashcards' name="CSV Flashcards" desc="A productivity app that allows users to import decks of flashcards from CSV files." text="Written in Swift using UIKit, this app integrates with airdrop and sharing, allowing users to not just import and study decks of flashcards, but also send them to their contacts and share them on social media. Planned iterations of this app will add support for other file formats and allow manual user selection of categories when importing cards." documentation="/csv-flashcards"/>
                     <Project link='https://github.com/jamesyoungGHusername/portfolio' name="Literally This Website" desc="A dual-purpose portfolio/documentation website for my various projects." text="Written in Javascript using React, all animations and design is 100% custom. It's being hosted on an Amazon web services EC2 instance running Ubuntu 20 and Apache. I had to do a little extra work for the Apache .conf file so it would play nice with React-Router. You also might be viewing this on github pages, in which case the routing will stop working if you refresh the page. More info on this is in the documentation."/>
