@@ -1,10 +1,10 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { BrowserRouter, Route, Link, useLocation } from "react-router-dom";
-import NavContextProvider, {useNavContext} from "../utils/NavContext";
-
-import { Push } from '../components/Push';
 import "./Home.css";
 
+import { BrowserRouter, Link, Route, useLocation } from "react-router-dom";
+import NavContextProvider, {useNavContext} from "../utils/NavContext";
+import React, { useContext, useEffect, useState } from 'react';
+
+import { Push } from '../components/Push';
 
 export default function Home() {
 
@@ -44,10 +44,20 @@ export default function Home() {
                 
             </div>
             
-            
-            {eventData.map((item,index)=>{
-                return <Push key={index} item={item}></Push>
-            })}
+            {eventData.length > 0 ? 
+                eventData.map((item,index)=>{
+                    return <Push key={index} item={item}></Push>
+                })
+            :
+                <div className="dummyCard">
+                    <p className="date">{Date()}</p>
+                    <div className="eventTitle" style={{alignItems:"flex-start"}}>
+                        <p className="actionType">No Public Github History Available...</p>
+                    </div>
+                    
+                </div>
+            }
+
 
         </section>
     );

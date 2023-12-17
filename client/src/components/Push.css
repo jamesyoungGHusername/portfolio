@@ -4,7 +4,8 @@
     color:white;
     border-width: 1px;
     border-style: solid;
-    border-color: gray;
+    border-color: white;
+    background-color: rgb(124, 123, 123);
     margin-top:20px;
     min-width: 290px;
     padding: 20px;
@@ -19,6 +20,18 @@
     border-width: 1px;
     border-style: solid;
     border-color: gray;
+    margin-top:20px;
+    min-width: 290px;
+    padding: 20px;
+}
+.dummyCard{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgb(124, 123, 123);
     margin-top:20px;
     min-width: 290px;
     padding: 20px;
@@ -58,4 +71,9 @@
 	padding: 0;
 	font: inherit;
 	outline: inherit;
+}
+.dateAndArrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
