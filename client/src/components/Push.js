@@ -28,7 +28,7 @@ export const Push=({item})=>{
 
             <div className="eventTitle" style={returnOrientation()}>
                 <p className="actionType">{item.type.split("Event")[0]}: {item.repo.name.split("/")[1]}</p>
-                <p id="px">Repo: <a className="repoLink" href={`https://github.com/${item.repo.name}`}>{item.repo.name}</a></p>
+                <p id="px">Repo: <a className="repoLink" rel="noreferrer" target="_blank" href={`https://github.com/${item.repo.name}`}>{item.repo.name}</a></p>
                 <p id="px">Ref: {item.payload?.ref} </p>
             </div>
             {item.payload.commits?(
