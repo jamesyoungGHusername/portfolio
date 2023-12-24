@@ -3,6 +3,7 @@ import "./CommitDetail.css";
 import React, { useContext, useEffect, useState } from 'react';
 
 import { useRef } from "react";
+
 export const CommitDetail=({commit,show})=>{
 
     const ref = useRef(null);

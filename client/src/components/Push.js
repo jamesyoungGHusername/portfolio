@@ -1,5 +1,6 @@
 import "./Push.css";
 
+import { FaChevronDown, FaChevronRight } from "react-icons/fa";
 import React, { useContext, useEffect, useState } from 'react';
 
 import { CommitDetail } from "./CommitDetail";
@@ -23,7 +24,12 @@ export const Push=({item})=>{
         <div onClick={toggleCommits}  className="eventCard">
             <div className="dateAndArrow">
                 <p className="date">{item.created_at}</p>
-                <p>arrow here</p>
+                {item.payload.commits &&
+                    <>
+                        {showCommits ? <FaChevronDown size={30} color={"black"}/> : <FaChevronRight size={30} color={"black"}/>}
+                    </>
+                }
+
             </div>
 
             <div className="eventTitle" style={returnOrientation()}>
