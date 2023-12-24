@@ -1,8 +1,9 @@
-import React from 'react';
-import headshot from '../assets/headshot for portfolio site.jpeg'
 import "./About.css";
+
 //import {FaJava} from "react-icons/fa";
-import {SiApachemaven, SiArduino, SiCplusplus, SiCsharp, SiCss3, SiHandlebarsdotjs, SiHtml5, SiIos, SiJava,SiJavascript,SiMicropython,SiMongodb,SiMysql,SiNodedotjs,SiNpm,SiPython,SiRaspberrypi,SiReact,SiSwift,SiUnity} from "react-icons/si";
+import {SiApachemaven, SiArduino, SiCplusplus, SiCsharp, SiCss3, SiHandlebarsdotjs, SiHtml5, SiIos, SiJava, SiJavascript, SiMicropython, SiMongodb, SiMysql, SiNodedotjs, SiNpm, SiPython, SiRaspberrypi, SiReact, SiSwift, SiUnity} from "react-icons/si";
+
+import React from 'react';
 
 const About = () => {
 
@@ -15,12 +16,7 @@ const About = () => {
                         <div className='languageIcons'>
                             <SiSwift className='icon' size={70} color={"white"}title={"Swift"}/><SiJava className='icon' size={70} color={"white"}title={"Java"}/><SiJavascript className='icon' size={70} color={"white"}title={"Javascript"}/><SiCsharp className='icon' size={70} color={"white"}title={"C# with Unity"}/><SiMicropython className='icon' size={70} color={"white"} title={"Mincropython (for microcontrollers)"}/>
                         </div>
-                        <img className='photo' src={headshot} alt="a headshot of James"/>
-                        <div className='toolIcons'>
-                            <SiUnity className='icon' size={70} color={"white"} title={"Unity"}/><SiMongodb className='icon' size={70} color={"white"} title={"MongoDB"}/><SiMysql className='icon' size={70} color={"white"} title={"SQL"}/><SiReact className='icon' size={70} color={"white"} title={"React"}/><SiApachemaven className='icon' size={70} color={"white"} title={"Apache and also Maven"}/><SiHandlebarsdotjs className='icon' size={70} color={"white"} title={"handlebars.js"}/><SiNpm className='icon' size={70} color={"white"} title={"npm"}/><SiNodedotjs className='icon' size={70} color={"white"} title={"Node.js"}/><SiHtml5 className='icon' size={70} color={"white"} title={"HTML5"}/><SiCss3 className='icon' size={70} color={"white"}title={"CSS3"}/><SiArduino className='icon' size={70} color={"white"} title={"Arduino"}/><SiRaspberrypi className='icon' size={70} color={"white"}title={"RaspberryPi"}/>
-                        </div>
-                    </div>
-                      <div className="content">
+                        <div className="content">
                           <p>
                               I like riding bikes, cooking, writing, and travel. I also really like coding - it was my hobby for years before it even occurred to me to do it professionally. Now it's even more fun than it was when it was just a hobby! 
                           </p>
@@ -30,9 +26,13 @@ const About = () => {
                           <p>
                           I thrive on small teams, and want projects that I can really make my own.
                           </p>
-                          
                       </div>
     
+                        <div className='toolIcons'>
+                            <SiUnity className='icon' size={70} color={"white"} title={"Unity"}/><SiMongodb className='icon' size={70} color={"white"} title={"MongoDB"}/><SiMysql className='icon' size={70} color={"white"} title={"SQL"}/><SiReact className='icon' size={70} color={"white"} title={"React"}/><SiApachemaven className='icon' size={70} color={"white"} title={"Apache and also Maven"}/><SiHandlebarsdotjs className='icon' size={70} color={"white"} title={"handlebars.js"}/><SiNpm className='icon' size={70} color={"white"} title={"npm"}/><SiNodedotjs className='icon' size={70} color={"white"} title={"Node.js"}/><SiHtml5 className='icon' size={70} color={"white"} title={"HTML5"}/><SiCss3 className='icon' size={70} color={"white"}title={"CSS3"}/><SiArduino className='icon' size={70} color={"white"} title={"Arduino"}/><SiRaspberrypi className='icon' size={70} color={"white"}title={"RaspberryPi"}/>
+                        </div>
+                    </div>
+
                   </div>
                 </div>
         
