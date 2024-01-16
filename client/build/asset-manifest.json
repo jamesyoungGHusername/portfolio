@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8a8fc13.css",
-    "main.js": "/static/js/main.dc780d0b.js",
+    "main.css": "/static/css/main.527aef36.css",
+    "main.js": "/static/js/main.435c5601.js",
     "static/js/787.c4e7f8f9.chunk.js": "/static/js/787.c4e7f8f9.chunk.js",
     "static/media/DashPreview.mp4": "/static/media/DashPreview.2b447afe13b4fda20773.mp4",
     "static/media/IMG_1965.JPG": "/static/media/IMG_1965.6b339e95dcd84e1b4a36.JPG",
@@ -11,12 +11,12 @@
     "static/media/hamburger.png": "/static/media/hamburger.6d05441efa58021113e5.png",
     "static/media/InfiniMatchAppIcon.png": "/static/media/InfiniMatchAppIcon.d6a2ca2d4acdcdbdd4d1.png",
     "index.html": "/index.html",
-    "main.a8a8fc13.css.map": "/static/css/main.a8a8fc13.css.map",
-    "main.dc780d0b.js.map": "/static/js/main.dc780d0b.js.map",
+    "main.527aef36.css.map": "/static/css/main.527aef36.css.map",
+    "main.435c5601.js.map": "/static/js/main.435c5601.js.map",
     "787.c4e7f8f9.chunk.js.map": "/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8a8fc13.css",
-    "static/js/main.dc780d0b.js"
+    "static/css/main.527aef36.css",
+    "static/js/main.435c5601.js"
   ]
 }
