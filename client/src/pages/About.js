@@ -1,7 +1,12 @@
 import "./About.css";
 
 //import {FaJava} from "react-icons/fa";
-import {SiApachemaven, SiArduino, SiCplusplus, SiCsharp, SiCss3, SiHandlebarsdotjs, SiHtml5, SiIos, SiJava, SiJavascript, SiMicropython, SiMongodb, SiMysql, SiNodedotjs, SiNpm, SiPython, SiRaspberrypi, SiReact, SiSwift, SiUnity} from "react-icons/si";
+import {SiApachemaven, SiArduino, SiCplusplus, SiCsharp, SiCss3, SiHandlebarsdotjs, SiHtml5, SiIos, SiJavascript, SiMicropython, SiMongodb, SiMysql, SiNodedotjs, SiNpm, SiPython, SiRaspberrypi, SiReact, SiSwift, SiUnity} from "react-icons/si";
+
+import { FaJava } from "react-icons/fa";
+
+
+import { UpsolveDashboard } from "@upsolve-labs/sdk";
 
 import React from 'react';
 
@@ -14,7 +19,7 @@ const About = () => {
                     
                     <div className='photoContainer'>
                         <div className='languageIcons'>
-                            <SiSwift className='icon' size={70} color={"white"}title={"Swift"}/><SiJava className='icon' size={70} color={"white"}title={"Java"}/><SiJavascript className='icon' size={70} color={"white"}title={"Javascript"}/><SiCsharp className='icon' size={70} color={"white"}title={"C# with Unity"}/><SiMicropython className='icon' size={70} color={"white"} title={"Mincropython (for microcontrollers)"}/>
+                            <SiSwift className='icon' size={70} color={"white"}title={"Swift"}/><FaJava className='icon' size={70} color={"white"}title={"Java"}/><SiJavascript className='icon' size={70} color={"white"}title={"Javascript"}/><SiCsharp className='icon' size={70} color={"white"}title={"C# with Unity"}/><SiMicropython className='icon' size={70} color={"white"} title={"Mincropython (for microcontrollers)"}/>
                         </div>
                         <div className="content">
                           <p>
@@ -32,7 +37,7 @@ const About = () => {
                             <SiUnity className='icon' size={70} color={"white"} title={"Unity"}/><SiMongodb className='icon' size={70} color={"white"} title={"MongoDB"}/><SiMysql className='icon' size={70} color={"white"} title={"SQL"}/><SiReact className='icon' size={70} color={"white"} title={"React"}/><SiApachemaven className='icon' size={70} color={"white"} title={"Apache and also Maven"}/><SiHandlebarsdotjs className='icon' size={70} color={"white"} title={"handlebars.js"}/><SiNpm className='icon' size={70} color={"white"} title={"npm"}/><SiNodedotjs className='icon' size={70} color={"white"} title={"Node.js"}/><SiHtml5 className='icon' size={70} color={"white"} title={"HTML5"}/><SiCss3 className='icon' size={70} color={"white"}title={"CSS3"}/><SiArduino className='icon' size={70} color={"white"} title={"Arduino"}/><SiRaspberrypi className='icon' size={70} color={"white"}title={"RaspberryPi"}/>
                         </div>
                     </div>
-
+                    <UpsolveDashboard></UpsolveDashboard>
                   </div>
                 </div>
         

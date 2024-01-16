@@ -1,0 +1,1 @@
+module.exports = require("@upsolve-labs/common/tailwind.config");
