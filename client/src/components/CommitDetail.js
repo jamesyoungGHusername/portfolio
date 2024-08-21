@@ -8,8 +8,6 @@ export const CommitDetail=({commit,show})=>{
 
     const ref = useRef(null);
 
-    console.log(commit.author.name);
-
     if(commit.author.name=="jamesyoungGHusername"){
         return(
             <div className="commitCard" style={show?{height:"75px"}:{height:"1px"}}>

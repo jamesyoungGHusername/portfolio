@@ -9,6 +9,7 @@ export default function Header(props) {
     const {currentLocation,setCurrentLocation} = useNavContext();
     const [header,setHeader] = useState(useNavContext().currentLocation);
     const [displayedHeader,setDisplayedHeader] = useState(useNavContext().currentLocation);
+    const [showTrailingCharacter,setShowTrailingCharacter] = useState(true)
     const location = useLocation();
 
     async function updateHeader(text){
@@ -18,12 +19,14 @@ export default function Header(props) {
     function timeout(delay){
         return new Promise( res => setTimeout(res,delay));
     }
+
     async function backspaceHeader(){
         if(displayedHeader!=""){
             await timeout(50);
             setDisplayedHeader(displayedHeader.slice(0,-1));
         }
     }
+
     async function typeHeader(){
         await timeout(50);
         if(header!=displayedHeader){
@@ -55,14 +58,26 @@ export default function Header(props) {
 
     },[header])
 
-    if(currentLocation === "hue-iq"){
-        console.log("on project page")
-    }
+    useEffect(()=>{
+        async function flashHeader(){
+            await timeout(1000)
+            setShowTrailingCharacter(!showTrailingCharacter)
+        }
+        if(!typing){
+            flashHeader()
+        }
+    },[header, showTrailingCharacter])
 
 
     return (
     <header>
-        <h4 className='displayedHeader'>Guest@JamesMakesApps.com % {displayedHeader}&#9608;</h4>
+        <div style={{justifyContent:"flex-start",textAlign:"left",width:(currentLocation === "hue-iq" ? "50%" : "30%")}}>
+        {showTrailingCharacter ?         
+            <h4 className='displayedHeader'>Guest@JamesMakesApps.com % {displayedHeader}&#9608;</h4> 
+            : 
+            <h4 className='displayedHeader'>Guest@JamesMakesApps.com % {displayedHeader}</h4>
+        }
+        </div>
         {currentLocation !== "hue-iq" && 
             <nav>
                 <ul>

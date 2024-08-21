@@ -1,0 +1,28 @@
+.content{
+    position:relative;
+    align-content: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rightText{
+    padding-left: 0px;
+    padding-top: 10px;
+}
+.description{
+    width: 90%;
+}
+
+@media screen and (min-width: 720px) {
+    .content{
+        padding-top: 0;
+    }
+    .rightText{
+        padding-left: 20px;
+    }
+    .description{
+        width: 50%;
+    }
+}

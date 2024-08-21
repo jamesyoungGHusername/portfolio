@@ -65,7 +65,7 @@ function App() {
                   element={<Flashcards/>}
                 />
                 <Route 
-                  path='/hue-iq-ai'
+                  path='/hue-iq'
                   element={<HueIq/>}
                 />
               </Routes>

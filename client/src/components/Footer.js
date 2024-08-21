@@ -1,5 +1,13 @@
 import resumee from "../assets/James-Young-Resume.pdf";
+import NavContextProvider, {useNavContext} from "../utils/NavContext";
 export default function Footer(){
+    const {currentLocation,setCurrentLocation} = useNavContext();
+    
+    if(currentLocation === "hue-iq"){
+        return <></>
+    }
+
+
     return(
         <footer>
             <ul>

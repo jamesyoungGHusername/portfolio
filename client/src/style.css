@@ -26,7 +26,6 @@ header{
 }
 .displayedHeader{
     display: flex;
-    text-align: center;
     max-height: 18px;
 }
 .navLink{

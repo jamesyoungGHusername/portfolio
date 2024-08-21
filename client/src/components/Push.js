@@ -8,7 +8,6 @@ import { Link } from "react-router-dom";
 
 export const Push=({item})=>{
     const [showCommits,setShowCommits]=useState(false);
-    console.log(item);
     function toggleCommits(){
         setShowCommits(!showCommits);
     }
