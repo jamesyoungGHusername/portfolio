@@ -5,13 +5,9 @@ import {SiApachemaven, SiArduino, SiCplusplus, SiCsharp, SiCss3, SiHandlebarsdot
 
 import { FaJava } from "react-icons/fa";
 
-
-import { UpsolveDashboard } from "@upsolve-labs/sdk";
-
 import React from 'react';
 
 const About = () => {
-
     return(
         <section id="about">
             <div className='aboutContainer'>
@@ -37,7 +33,6 @@ const About = () => {
                             <SiUnity className='icon' size={70} color={"white"} title={"Unity"}/><SiMongodb className='icon' size={70} color={"white"} title={"MongoDB"}/><SiMysql className='icon' size={70} color={"white"} title={"SQL"}/><SiReact className='icon' size={70} color={"white"} title={"React"}/><SiApachemaven className='icon' size={70} color={"white"} title={"Apache and also Maven"}/><SiHandlebarsdotjs className='icon' size={70} color={"white"} title={"handlebars.js"}/><SiNpm className='icon' size={70} color={"white"} title={"npm"}/><SiNodedotjs className='icon' size={70} color={"white"} title={"Node.js"}/><SiHtml5 className='icon' size={70} color={"white"} title={"HTML5"}/><SiCss3 className='icon' size={70} color={"white"}title={"CSS3"}/><SiArduino className='icon' size={70} color={"white"} title={"Arduino"}/><SiRaspberrypi className='icon' size={70} color={"white"}title={"RaspberryPi"}/>
                         </div>
                     </div>
-                    <UpsolveDashboard></UpsolveDashboard>
                   </div>
                 </div>
         

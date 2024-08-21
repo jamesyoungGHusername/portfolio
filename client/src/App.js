@@ -12,6 +12,7 @@ import { Flashcards } from './pages/Flashcards';
 import Footer from './components/Footer';
 import NavContextProvider from './utils/NavContext';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import HueIq from './pages/projectDocumentation/HueIq';
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
     <Router>
       <NavContextProvider>
         <div className="App">
-          
+
             <Header/>
             <main>
               <Routes>
@@ -62,6 +63,10 @@ function App() {
                 <Route 
                   path='/csv-flashcards'
                   element={<Flashcards/>}
+                />
+                <Route 
+                  path='/hue-iq-ai'
+                  element={<HueIq/>}
                 />
               </Routes>
 
