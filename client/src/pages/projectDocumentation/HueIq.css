@@ -6,6 +6,15 @@
     flex-direction: column;
     align-items: center;
 }
+.hueIqTitleCard{
+    position:relative;
+    align-content: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:5em;
+}
 
 .rightText{
     padding-left: 0px;
@@ -13,6 +22,9 @@
 }
 .description{
     width: 90%;
+}
+.largeImage{
+    width:200px;
 }
 
 @media screen and (min-width: 720px) {

@@ -2,14 +2,27 @@ import React from "react"
 import "./HueIq.css"
 
 export default function HueIq(){
-    console.log("on hue iq")
     return <section className="content">
-    <h2>
-        HueIQ.AI
-    </h2>
-    <h3>
-        Seasonal Color Analysis Assistant
-    </h3>
+        <section className="hueIqTitleCard">
+            <div style={{display:"flex",flexDirection:"row",justifyContent:"space-between"}}>
+                <div style={{display:"flex",flexDirection:"row",alignItems:"flex-end"}}>
+                    <img style={{borderRadius:30}} className="largeImage" src="https://s3.us-west-2.amazonaws.com/jamesyoung.aws.portfolio/assets/HueIQLogo.jpg" alt="Hue Iq Logo. A question mark with a circle of colors around the dot at the bottom."/>
+                    <div style={{paddingLeft:"2em"}}>
+                        <h2>
+                            Hue IQ
+                        </h2>
+                        <h3>
+                            Seasonal Color Analysis Assistant
+                        </h3>
+                    </div>
+                </div>
+
+            </div>
+
+            <a style={{paddingTop:"3em"}} href="https://apps.apple.com/us/app/hue-iq-color-analysis/id6538728292" target="_blank" rel="noopener noreferrer">
+                <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on the app store badge."/>
+            </a>
+        </section>
     <section className="description">
         <p>
             HueIQ is the ultimate companion for precise color analysis. Get detailed insights and dress confidently. Designed for fashion enthusiasts and savvy shoppers, HueIQ helps you make informed clothing choices by providing comprehensive color data. 

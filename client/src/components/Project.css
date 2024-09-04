@@ -9,7 +9,6 @@
     transform: translate(15%);
 }
 .project:hover{
-    
     background-color: darkgray;
     width: 90%;
     transform: translate(2.5%);
@@ -29,9 +28,9 @@
     
 }
 
-.description{
-    padding-left: 10px;
-    padding-right: 10px;
+.projectDescription{
+    padding:1em;
+    width: 100%;
 }
 .image{
     width: 100px;

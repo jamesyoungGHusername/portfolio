@@ -5,6 +5,7 @@
 }
 .aboutContainer{
     display: flex;
+    justify-content: center;
 }
 .photoAndContent{
     display: flex;

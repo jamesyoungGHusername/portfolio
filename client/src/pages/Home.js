@@ -36,18 +36,19 @@ export default function Home() {
     return(
         <section className="home">
             <div className='profileContainer'>
-                <img src={githubData.avatar_url} height="100" width="100" />
+                <img src={githubData.avatar_url} height="100" width="100" alt="James' github avatar"/>
                 <div className='nameContainer'>
                     <p className="name">{githubData.name}</p>
                     <p className='desc'>Public event history (<a href="https://github.com/jamesyoungGHusername">/jamesyoungGHusername</a>)</p>
                 </div>
-                
             </div>
             
             {eventData.length > 0 ? 
-                eventData.map((item,index)=>{
-                    return <Push key={index} item={item}></Push>
-                })
+                <>
+                    {eventData.map((item,index)=>{
+                        return <Push key={index} item={item}></Push>
+                    })}    
+                </>
             :
                 <div className="dummyCard">
                     <p className="date">{Date()}</p>
@@ -57,8 +58,6 @@ export default function Home() {
                     
                 </div>
             }
-
-
         </section>
     );
 }
