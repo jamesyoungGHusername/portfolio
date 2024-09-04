@@ -18,7 +18,7 @@ export default function HueIq(){
             Overview
         </h3>
         <p>
-            Seasonal color analysis is a method for determining what color clothes and cosmetics harmonize with a person's features by categorizing them into a Color Season. Hue Iq makes use of a neural network that's trained to recognize which colors will look good with which season.
+            Seasonal color analysis is a method for determining what color clothes and cosmetics harmonize with a person's features by categorizing them into a Color Season. Hue Iq helps people make  of a neural network that's trained to recognize which colors will look good with which season.
         </p>
         <h3>
             Create

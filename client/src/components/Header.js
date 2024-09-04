@@ -1,16 +1,15 @@
-import React, { useContext, useEffect, useState } from 'react';
-import { BrowserRouter, Route, Link, useLocation } from "react-router-dom";
-import NavContextProvider, {useNavContext} from "../utils/NavContext";
+import React, { useEffect, useState } from 'react';
+import { Link} from "react-router-dom";
+import {useNavContext} from "../utils/NavContext";
 
 let navigating = false;
 let typing = false;
 let typeCount = 1;
 export default function Header(props) {
-    const {currentLocation,setCurrentLocation} = useNavContext();
+    const {setCurrentLocation} = useNavContext();
     const [header,setHeader] = useState(useNavContext().currentLocation);
     const [displayedHeader,setDisplayedHeader] = useState(useNavContext().currentLocation);
     const [showTrailingCharacter,setShowTrailingCharacter] = useState(true)
-    const location = useLocation();
 
     async function updateHeader(text){
         setCurrentLocation(text);
@@ -55,7 +54,6 @@ export default function Header(props) {
             navigating=true;
             backspaceHeader();
         }
-
     },[header])
 
     useEffect(()=>{
@@ -71,14 +69,13 @@ export default function Header(props) {
 
     return (
     <header>
-        <div style={{justifyContent:"flex-start",textAlign:"left",width:(currentLocation === "hue-iq" ? "50%" : "30%")}}>
+        <div style={{justifyContent:"flex-start",textAlign:"left",width: "30%"}}>
         {showTrailingCharacter ?         
             <h4 className='displayedHeader'>Guest@JamesMakesApps.com % {displayedHeader}&#9608;</h4> 
             : 
             <h4 className='displayedHeader'>Guest@JamesMakesApps.com % {displayedHeader}</h4>
         }
         </div>
-        {currentLocation !== "hue-iq" && 
             <nav>
                 <ul>
                     <Link className='navLink' to="/"><li style={(header===" ")?{backgroundColor:"rgb(18, 9, 9)",color:"white"}:null} onClick={()=>updateHeader(" ")}>home</li></Link>
@@ -86,9 +83,7 @@ export default function Header(props) {
                     <Link className='navLink' to="/projects"><li style={(header==="projects")?{backgroundColor:"rgb(18, 9, 9)",color:"white"}:null} onClick={()=>updateHeader("projects")}>projects</li></Link>
                     <Link className='navLink' to="/contact"><li style={(header==="contact")?{backgroundColor:"rgb(18, 9, 9)",color:"white"}:null} onClick={()=>updateHeader("contact")}>contact</li></Link>
                 </ul>
-            </nav>
-        }
-
+            </nav>  
     </header>
     );
 }
