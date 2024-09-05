@@ -52,7 +52,7 @@ export default function Project({image,link,name,desc,text,documentation}) {
         // <li><a href={link}>   
         <li>     
             <section onClick={()=>setOpen(!open)} className={open ? "blog":"project"}>
-                {image && <img className="image" id="first" src={image} alt={`Logo for ${name}`} />}
+                {image && <img style={{borderRadius:20}} className="image" id="first" src={image} alt={`Logo for ${name}`} />}
                 <div className="projectDescription">
                     <h1><a href={link}><strong>{name}</strong></a></h1>
                         {documentation ? <Link to={documentation}>Documentation</Link>:<div/>}

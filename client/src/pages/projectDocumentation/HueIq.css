@@ -15,7 +15,18 @@
     align-items: center;
     padding:5em;
 }
-
+.imageRow{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+.imageRow img{
+    width: 100%;
+    object-fit: contain;
+    padding: 0;
+    padding-bottom:3em;
+}
 .rightText{
     padding-left: 0px;
     padding-top: 10px;
@@ -23,11 +34,20 @@
 .description{
     width: 90%;
 }
+
 .largeImage{
     width:200px;
 }
 
 @media screen and (min-width: 720px) {
+    .imageRow{
+        flex-direction: row;
+    }
+    .imageRow img{
+        width: 30%;
+        padding:1em;
+        padding-bottom:3em;
+    }
     .content{
         padding-top: 0;
     }
@@ -35,6 +55,6 @@
         padding-left: 20px;
     }
     .description{
-        width: 50%;
+        width: 70%;
     }
 }
