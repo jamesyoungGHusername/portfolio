@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.520ae598.css",
-    "main.js": "/static/js/main.02a1dd45.js",
+    "main.css": "/static/css/main.44d60c0a.css",
+    "main.js": "/static/js/main.c5c1609f.js",
     "static/js/787.d5fa4d18.chunk.js": "/static/js/787.d5fa4d18.chunk.js",
     "static/media/DashPreview.mp4": "/static/media/DashPreview.2b447afe13b4fda20773.mp4",
     "static/media/IMG_1965.JPG": "/static/media/IMG_1965.6b339e95dcd84e1b4a36.JPG",
@@ -11,12 +11,12 @@
     "static/media/hamburger.png": "/static/media/hamburger.6d05441efa58021113e5.png",
     "static/media/InfiniMatchAppIcon.png": "/static/media/InfiniMatchAppIcon.d6a2ca2d4acdcdbdd4d1.png",
     "index.html": "/index.html",
-    "main.520ae598.css.map": "/static/css/main.520ae598.css.map",
-    "main.02a1dd45.js.map": "/static/js/main.02a1dd45.js.map",
+    "main.44d60c0a.css.map": "/static/css/main.44d60c0a.css.map",
+    "main.c5c1609f.js.map": "/static/js/main.c5c1609f.js.map",
     "787.d5fa4d18.chunk.js.map": "/static/js/787.d5fa4d18.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.520ae598.css",
-    "static/js/main.02a1dd45.js"
+    "static/css/main.44d60c0a.css",
+    "static/js/main.c5c1609f.js"
   ]
 }
