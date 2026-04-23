@@ -13,7 +13,7 @@ import NavContextProvider from './utils/NavContext';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HueIq from './pages/projectDocumentation/HueIq';
 import Work from './pages/work/Projects'
-
+//
 const routes = {
   portfolio: {
     path: "/portfolio",
