@@ -1,0 +1,17 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.profileContainer{
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    font-size: 50px;
+    margin: 0px;
+    margin-left: 20px;
+}
+.desc{
+    margin-left: 20px;
+}

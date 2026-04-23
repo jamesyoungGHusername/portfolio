@@ -66,6 +66,8 @@ export default function Header(props) {
         }
     },[header, showTrailingCharacter])
 
+    
+
 
     return (
     <header>
@@ -80,7 +82,7 @@ export default function Header(props) {
                 <ul>
                     <Link className='navLink' to="/"><li style={(header===" ")?{backgroundColor:"rgb(18, 9, 9)",color:"white"}:null} onClick={()=>updateHeader(" ")}>home</li></Link>
                     <Link className='navLink' to="/about_me"><li style={(header==="about_me")?{backgroundColor:"rgb(18, 9, 9)",color:"white"}:null} onClick={()=>updateHeader("about_me")}>about_me</li></Link>
-                    <Link className='navLink' to="/projects"><li style={(header==="projects")?{backgroundColor:"rgb(18, 9, 9)",color:"white"}:null} onClick={()=>updateHeader("projects")}>projects</li></Link>
+                    <Link className='navLink' to="/work"><li style={(header==="work")?{backgroundColor:"rgb(18, 9, 9)",color:"white"}:null} onClick={()=>updateHeader("work")}>work</li></Link>
                     <Link className='navLink' to="/contact"><li style={(header==="contact")?{backgroundColor:"rgb(18, 9, 9)",color:"white"}:null} onClick={()=>updateHeader("contact")}>contact</li></Link>
                 </ul>
             </nav>  

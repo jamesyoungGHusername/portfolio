@@ -1,0 +1,37 @@
+#about{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.aboutContainer{
+    display: flex;
+    justify-content: center;
+}
+.photoAndContent{
+    display: flex;
+}
+.photoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.photo{
+    display: flex;
+    max-height: 250px;
+    padding: 5px;
+    object-fit: contain;
+}
+.toolIcons{
+    text-align: center;
+}
+.icon{
+    padding: 5px;
+}
+.languageIcons{
+    text-align: center;
+}
+
+@media screen and (min-width: 720px) {
+    
+}

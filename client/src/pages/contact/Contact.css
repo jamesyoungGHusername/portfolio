@@ -1,0 +1,28 @@
+
+#contact{
+    justify-content: center;
+}
+.contactCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:50%;
+    transform: translate(50%);
+    box-shadow: 10px,5px,5px,black;
+
+}
+h1{
+    justify-self: center;
+}
+
+.contactOption{
+    display: flex;
+    align-items: center;
+}
+
+.contactOption p{
+    display: flex;
+    margin: 30px;
+    color:white;
+    border-radius: 3px;
+}
