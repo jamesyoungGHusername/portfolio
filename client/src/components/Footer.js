@@ -1,4 +1,4 @@
-import resumee from "../assets/James-Young-Resume.pdf";
+import resumee from "../assets/James-Young-Resumee-2026.pdf";
 import NavContextProvider, {useNavContext} from "../utils/NavContext";
 export default function Footer(){
     const {currentLocation,setCurrentLocation} = useNavContext();
